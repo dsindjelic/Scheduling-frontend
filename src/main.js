@@ -8,6 +8,8 @@ import {firestorePlugin} from 'vuefire'
 import moment from 'moment'
 
 Vue.config.productionTip = false
+Vue.config.devtools = false
+Vue.config.performance = false
 Vue.use(VueResource)
 Vue.use(VueRouter)
 Vue.use(firestorePlugin);
