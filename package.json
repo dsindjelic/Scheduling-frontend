@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview",
     "serve": "vite preview --host",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "firebase": "^9.22.2",
+    "firebase": "^10.7.1",
     "moment": "^2.29.4",
     "pinia": "^2.1.4",
     "vue": "^3.3.4",
